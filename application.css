@@ -1,0 +1,32 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url('./assets/images/background.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  font-family: Quicksand, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.main__message {
+  width: 50%;
+  margin-left: 50%;
+  padding-top: 15%;
+  height: 100%;
+  font-size: 18px;
+}
+.main__footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  padding: 3px;
+}
