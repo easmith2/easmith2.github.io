@@ -1,0 +1,83 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Quicksand, Helvetica, Arial Narrow, sans-serif;
+  font-size: 18px; }
+
+.main {
+  background-image: url("./assets/images/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  font-family: Quicksand, Helvetica, Arial Narrow, sans-serif; }
+
+.main__message {
+  padding: 20px 10px 0 20%; }
+  @media all and (min-width: 600px) {
+    .main__message {
+      width: 50%;
+      margin-left: 50%;
+      padding-top: 15%;
+      height: 100%;
+      font-size: 18px; } }
+
+.main__footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  padding: 3px; }
+
+.header {
+  position: relative;
+  background-color: grey;
+  color: white;
+  height: 100px;
+  line-height: 50px;
+  font-family: Quicksand, Helvetica, Arial Narrow, sans-serif; }
+  @media all and (min-width: 600px) {
+    .header {
+      height: 50px; } }
+
+.header__name {
+  font-size: 1.5rem;
+  padding-left: 15px; }
+  @media all and (min-width: 600px) {
+    .header__name {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-left: 25px; } }
+
+.header__nav {
+  font-size: 1.3rem;
+  list-style: none; }
+  @media all and (min-width: 600px) {
+    .header__nav {
+      position: absolute;
+      right: 0;
+      top: 0; } }
+
+.header__nav li {
+  display: inline-block;
+  position: relative;
+  padding-left: 15px; }
+  .header__nav li > a {
+    color: inherit;
+    cursor: pointer; }
+    .header__nav li > a:hover {
+      color: #196FB1; }
+  @media all and (min-width: 600px) {
+    .header__nav li {
+      padding-right: 25px; } }
+
+/*# sourceMappingURL=app.css.map */
