@@ -1,0 +1,8 @@
+.main {
+  color: $grey-dark;
+  position: relative;
+  padding: 10px 15px;
+  @media all and (min-width: $break-s) {
+    padding: 10px 25px;
+  }
+}

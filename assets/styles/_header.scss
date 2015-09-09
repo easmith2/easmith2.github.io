@@ -33,6 +33,7 @@
   position: relative;
   padding-left: 15px;
   > a {
+    border-bottom: none;
     color: inherit;
     cursor: pointer;
     &:hover {

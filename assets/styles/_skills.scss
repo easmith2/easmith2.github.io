@@ -1,0 +1,11 @@
+.skills {
+  list-style: none;
+}
+.skills li {
+  font-size: 0.8rem;
+  display: inline-block;
+  padding-right: 10px;
+  &:last-child {
+    padding-right: 0;
+  }
+}
