@@ -184,9 +184,10 @@ a {
   background-color: #FFF;
   opacity: 0.5;
   transition: opacity 800ms ease; }
-  .work__preview:hover {
-    background-color: inherit;
-    opacity: 1; }
+
+.work__item:hover .work__preview {
+  background-color: inherit;
+  opacity: 1; }
 
 .work__preview img {
   width: 100%; }
