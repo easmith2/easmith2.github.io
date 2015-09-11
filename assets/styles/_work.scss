@@ -3,15 +3,22 @@
   display: block;
   min-height: 100px;
   &:first-child {margin-bottom: 35px;}
+  &:last-child {margin-top: 35px;}
   @media all and (min-width: $break-s) {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 33.33333%;
     &:first-child {
-      margin-bottom: 0px;
+      margin-bottom: 0;
+      padding-right: 10px;
+    }
+    &:last-child {
+      margin-top: 0;
+      padding-left: 10px;
     }
     &:nth-child(even) {
-      padding-left: 25px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
 }
@@ -28,6 +35,11 @@
 }
 .work__preview img {
   width: 100%;
+  @media all and (min-width: $break-s) {
+    height: 100%;
+    width: auto;
+    // margin-left: -10px;
+  }
 }
 .work__name {
   font-weight: 300;
