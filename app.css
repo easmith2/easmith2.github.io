@@ -204,12 +204,9 @@ a {
   @media all and (min-width: 675px) {
     .work__description {
       height: 3rem; } }
-  @media all and (min-width: 900px) {
+  @media all and (min-width: 925px) {
     .work__description {
       height: 2rem; } }
-  @media all and (min-width: 1150px) {
-    .work__description {
-      height: 1rem; } }
 
 .work__links {
   font-size: 0.8rem; }

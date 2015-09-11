@@ -38,7 +38,6 @@
   @media all and (min-width: $break-s) {
     height: 100%;
     width: auto;
-    // margin-left: -10px;
   }
 }
 .work__name {
@@ -52,9 +51,6 @@
   }
   @media all and (min-width: $break-m) {
     height: 2rem;
-  }
-  @media all and (min-width: $break-l) {
-    height: 1rem;
   }
 }
 .work__links {
