@@ -1,8 +1,12 @@
 .header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
   background-color: grey;
   color: white;
   height: 100px;
+  width: 100%;
   line-height: 50px;
   font-family: $primary-font;
   @media all and (min-width: $break-s) {
@@ -17,6 +21,27 @@
     left: 0;
     top: 0;
     padding-left: 25px;
+  }
+}
+.header__contact {
+  font-size: 0.8rem;
+  padding-right: 15px;
+  position: absolute;
+  right: 0;
+  &:nth-child(even) {
+    @media all and (max-width: $break-s) {
+      top: 0.25rem;
+    }
+  }
+  > a {color: inherit; border-bottom: none;}
+  @media all and (min-width: $break-s) {
+    padding-left: 10px;
+    padding-right: 0;
+    position: relative;
+    display: inline-block;
+  }
+  &:nth-child(even) {
+    margin-left: 190px;
   }
 }
 .header__nav {
